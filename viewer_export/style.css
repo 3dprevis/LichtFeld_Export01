@@ -1,0 +1,79 @@
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; overflow: hidden; width: 100%; height: 100%; background: #000; font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif; }
+canvas { display: block; touch-action: none; cursor: grab; }
+canvas:active { cursor: grabbing; }
+
+#ui-overlay { position: fixed; inset: 0; pointer-events: none; z-index: 10; }
+
+#loading-screen {
+  position: fixed; inset: 0; background: #0a0a0c; color: #eee;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  pointer-events: all; z-index: 100; transition: opacity .4s ease;
+}
+#loading-screen.hidden { opacity: 0; pointer-events: none; }
+#loading-text { font-size: 15px; margin-bottom: 14px; letter-spacing: .02em; opacity: .85; }
+#loading-bar-track { width: 240px; height: 3px; background: #2a2a2e; border-radius: 2px; overflow: hidden; }
+#loading-bar-fill { width: 0%; height: 100%; background: #6fd0ff; transition: width .2s ease; }
+
+#hotspot-layer { position: fixed; inset: 0; z-index: 5; }
+
+.hotspot-marker {
+  position: absolute; transform: translate(-50%, -50%);
+  pointer-events: all; cursor: pointer; user-select: none;
+  display: flex; flex-direction: column; align-items: center;
+  gap: 4px;
+}
+.hotspot-dot {
+  width: 26px; height: 26px; border-radius: 50%;
+  background: rgba(20, 20, 24, .55); border: 2px solid #6fd0ff;
+  box-shadow: 0 0 12px rgba(111, 208, 255, .55);
+  display: flex; align-items: center; justify-content: center;
+  animation: pulse 2.4s ease-in-out infinite;
+}
+.hotspot-dot::after {
+  content: ""; width: 7px; height: 7px; border-radius: 50%; background: #6fd0ff;
+}
+.hotspot-label {
+  font-size: 11px; color: #fff; background: rgba(0,0,0,.55);
+  padding: 2px 7px; border-radius: 10px; white-space: nowrap;
+  opacity: 0; transition: opacity .15s ease;
+}
+.hotspot-marker:hover .hotspot-label { opacity: 1; }
+.hotspot-marker:hover .hotspot-dot { box-shadow: 0 0 18px rgba(111, 208, 255, .9); }
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+}
+
+#hud {
+  position: fixed; top: 14px; left: 14px; right: 14px;
+  display: flex; justify-content: space-between; align-items: flex-start;
+  pointer-events: none;
+}
+#current-room {
+  pointer-events: all; background: rgba(0,0,0,.5); color: #fff; font-size: 13px;
+  padding: 6px 12px; border-radius: 14px; letter-spacing: .02em;
+}
+#calib-toggle {
+  pointer-events: all; width: 30px; height: 30px; border-radius: 50%; border: none;
+  background: rgba(0,0,0,.5); color: #fff; font-size: 15px; cursor: pointer;
+}
+#calib-toggle:hover { background: rgba(0,0,0,.75); }
+
+#calib-panel {
+  position: fixed; top: 54px; right: 14px; width: 280px; pointer-events: all;
+  background: rgba(15,15,18,.9); color: #eee; border-radius: 10px; padding: 12px 14px;
+  font-size: 12px; z-index: 20;
+}
+#calib-panel.hidden { display: none; }
+.calib-row { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+.calib-row label { flex: 0 0 auto; font-size: 11px; opacity: .8; }
+.calib-row input[type=range] { flex: 1 1 auto; }
+#calib-yaw-val { width: 42px; text-align: right; font-variant-numeric: tabular-nums; }
+#calib-export {
+  background: #2b6f92; color: #fff; border: none; border-radius: 6px; padding: 6px 10px;
+  cursor: pointer; font-size: 12px;
+}
+#calib-export:hover { background: #35849f; }
+.calib-help { opacity: .65; line-height: 1.4; font-size: 11px; }

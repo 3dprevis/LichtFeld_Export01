@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Visite virtuelle</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<script type="importmap">
+{
+  "imports": {
+    "playcanvas": "https://cdn.jsdelivr.net/npm/playcanvas@2.19.7/+esm"
+  }
+}
+</script>
+</head>
+<body>
+  <div id="ui-overlay">
+    <div id="loading-screen">
+      <div id="loading-text">Chargement de la visite…</div>
+      <div id="loading-bar-track"><div id="loading-bar-fill"></div></div>
+    </div>
+
+    <div id="hud">
+      <div id="current-room">—</div>
+      <button id="calib-toggle" title="Réglage de l'orientation du panorama">⚙</button>
+    </div>
+
+    <div id="calib-panel" class="hidden">
+      <div class="calib-row">
+        <label><input type="checkbox" id="calib-mirror-u"> Miroir U (horizontal)</label>
+      </div>
+      <div class="calib-row">
+        <label>Yaw suppl.</label>
+        <input id="calib-yaw" type="range" min="-180" max="180" step="1" value="0">
+        <span id="calib-yaw-val">0°</span>
+      </div>
+      <div class="calib-row">
+        <label>Pitch suppl.</label>
+        <input id="calib-pitch" type="range" min="-180" max="180" step="1" value="0">
+        <span id="calib-pitch-val">0°</span>
+      </div>
+      <div class="calib-row">
+        <label>Roll suppl.</label>
+        <input id="calib-roll" type="range" min="-180" max="180" step="1" value="0">
+        <span id="calib-roll-val">0°</span>
+      </div>
+      <div class="calib-row">
+        <label><input type="checkbox" id="calib-order"> Appliquer AVANT la rotation de base (au lieu d'après)</label>
+      </div>
+      <div class="calib-row">
+        <label>Roll caméra</label>
+        <input id="calib-cam-roll" type="range" min="-180" max="180" step="1" value="0">
+        <span id="calib-cam-roll-val">0°</span>
+      </div>
+      <div class="calib-row">
+        <button id="calib-export">Copier les réglages</button>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>

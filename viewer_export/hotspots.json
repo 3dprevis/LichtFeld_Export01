@@ -1,0 +1,1535 @@
+{
+  "camera_model": "EQUIRECTANGULAR",
+  "splat_file": "../Model.sog",
+  "notes": "positions/rotations lues directement depuis la geometrie Houdini (out), corrections deja appliquees en amont dans le reseau.",
+  "spheres": [
+    {
+      "id": "image_360_0",
+      "image": "../images/image_360_0.jpg",
+      "position": [
+        2.4700069427490234,
+        -0.0001354548439849168,
+        1.0406206846237183
+      ],
+      "rotation_matrix": [
+        [
+          -0.03448476269841194,
+          -0.0010299573186784983,
+          -0.9994046688079834
+        ],
+        [
+          0.000549165066331625,
+          -0.9999993443489075,
+          0.0010116210905835032
+        ],
+        [
+          -0.9994050860404968,
+          -0.0005139526329003274,
+          0.03448530659079552
+        ]
+      ],
+      "hotspots": [
+        {
+          "target": "image_360_1",
+          "distance_m": 2.436
+        },
+        {
+          "target": "image_360_2",
+          "distance_m": 7.645
+        },
+        {
+          "target": "image_360_3",
+          "distance_m": 9.146
+        },
+        {
+          "target": "image_360_4",
+          "distance_m": 10.416
+        },
+        {
+          "target": "image_360_5",
+          "distance_m": 10.77
+        },
+        {
+          "target": "image_360_8",
+          "distance_m": 7.162
+        },
+        {
+          "target": "image_360_9",
+          "distance_m": 6.115
+        },
+        {
+          "target": "image_360_10",
+          "distance_m": 1.63
+        },
+        {
+          "target": "image_360_11",
+          "distance_m": 2.679
+        },
+        {
+          "target": "image_360_12",
+          "distance_m": 3.285
+        },
+        {
+          "target": "image_360_13",
+          "distance_m": 4.426
+        },
+        {
+          "target": "image_360_14",
+          "distance_m": 4.197
+        },
+        {
+          "target": "image_360_16",
+          "distance_m": 5.361
+        },
+        {
+          "target": "image_360_17",
+          "distance_m": 6.472
+        }
+      ]
+    },
+    {
+      "id": "image_360_1",
+      "image": "../images/image_360_1.jpg",
+      "position": [
+        0.035818349570035934,
+        -0.0005561849684454501,
+        1.1332114934921265
+      ],
+      "rotation_matrix": [
+        [
+          -0.09706003963947296,
+          -0.002165299141779542,
+          -0.995276153087616
+        ],
+        [
+          0.00134752644225955,
+          -0.9999970197677612,
+          0.002044157823547721
+        ],
+        [
+          -0.9952776432037354,
+          -0.0011427549179643393,
+          0.09706266969442368
+        ]
+      ],
+      "hotspots": [
+        {
+          "target": "image_360_0",
+          "distance_m": 2.436
+        },
+        {
+          "target": "image_360_2",
+          "distance_m": 5.21
+        },
+        {
+          "target": "image_360_3",
+          "distance_m": 6.712
+        },
+        {
+          "target": "image_360_4",
+          "distance_m": 7.982
+        },
+        {
+          "target": "image_360_5",
+          "distance_m": 8.349
+        },
+        {
+          "target": "image_360_7",
+          "distance_m": 4.522
+        },
+        {
+          "target": "image_360_9",
+          "distance_m": 4.168
+        },
+        {
+          "target": "image_360_10",
+          "distance_m": 1.683
+        },
+        {
+          "target": "image_360_11",
+          "distance_m": 1.136
+        },
+        {
+          "target": "image_360_12",
+          "distance_m": 2.135
+        },
+        {
+          "target": "image_360_13",
+          "distance_m": 3.28
+        },
+        {
+          "target": "image_360_14",
+          "distance_m": 2.28
+        },
+        {
+          "target": "image_360_15",
+          "distance_m": 1.966
+        },
+        {
+          "target": "image_360_16",
+          "distance_m": 2.958
+        },
+        {
+          "target": "image_360_17",
+          "distance_m": 4.056
+        }
+      ]
+    },
+    {
+      "id": "image_360_2",
+      "image": "../images/image_360_2.jpg",
+      "position": [
+        -5.162282943725586,
+        0.001526970649138093,
+        1.4806222915649414
+      ],
+      "rotation_matrix": [
+        [
+          -0.07774079591035843,
+          0.0011576974065974355,
+          -0.996972918510437
+        ],
+        [
+          -0.003580647287890315,
+          -0.9999932050704956,
+          -0.0008819970535114408
+        ],
+        [
+          -0.9969671964645386,
+          0.0035012413281947374,
+          0.07774440944194794
+        ]
+      ],
+      "hotspots": [
+        {
+          "target": "image_360_0",
+          "distance_m": 7.645
+        },
+        {
+          "target": "image_360_1",
+          "distance_m": 5.21
+        },
+        {
+          "target": "image_360_3",
+          "distance_m": 1.506
+        },
+        {
+          "target": "image_360_4",
+          "distance_m": 2.773
+        },
+        {
+          "target": "image_360_5",
+          "distance_m": 3.296
+        },
+        {
+          "target": "image_360_6",
+          "distance_m": 3.999
+        },
+        {
+          "target": "image_360_7",
+          "distance_m": 1.794
+        },
+        {
+          "target": "image_360_8",
+          "distance_m": 2.964
+        },
+        {
+          "target": "image_360_9",
+          "distance_m": 3.908
+        },
+        {
+          "target": "image_360_10",
+          "distance_m": 6.586
+        },
+        {
+          "target": "image_360_12",
+          "distance_m": 5.631
+        },
+        {
+          "target": "image_360_13",
+          "distance_m": 5.715
+        },
+        {
+          "target": "image_360_14",
+          "distance_m": 4.363
+        },
+        {
+          "target": "image_360_15",
+          "distance_m": 3.477
+        },
+        {
+          "target": "image_360_16",
+          "distance_m": 2.46
+        },
+        {
+          "target": "image_360_17",
+          "distance_m": 1.446
+        }
+      ]
+    },
+    {
+      "id": "image_360_3",
+      "image": "../images/image_360_3.jpg",
+      "position": [
+        -6.652360439300537,
+        0.010864554904401302,
+        1.699724555015564
+      ],
+      "rotation_matrix": [
+        [
+          0.07480364292860031,
+          -0.0006246358389034867,
+          -0.9971981048583984
+        ],
+        [
+          -0.0025758256670087576,
+          -0.9999966025352478,
+          0.00043316627852618694
+        ],
+        [
+          -0.9971949458122253,
+          0.002536206040531397,
+          -0.07480499148368835
+        ]
+      ],
+      "hotspots": [
+        {
+          "target": "image_360_0",
+          "distance_m": 9.146
+        },
+        {
+          "target": "image_360_1",
+          "distance_m": 6.712
+        },
+        {
+          "target": "image_360_2",
+          "distance_m": 1.506
+        },
+        {
+          "target": "image_360_4",
+          "distance_m": 1.271
+        },
+        {
+          "target": "image_360_5",
+          "distance_m": 2.074
+        },
+        {
+          "target": "image_360_6",
+          "distance_m": 3.137
+        },
+        {
+          "target": "image_360_7",
+          "distance_m": 2.95
+        },
+        {
+          "target": "image_360_8",
+          "distance_m": 3.863
+        },
+        {
+          "target": "image_360_9",
+          "distance_m": 5.05
+        },
+        {
+          "target": "image_360_10",
+          "distance_m": 8.087
+        },
+        {
+          "target": "image_360_12",
+          "distance_m": 7.08
+        },
+        {
+          "target": "image_360_13",
+          "distance_m": 7.06
+        },
+        {
+          "target": "image_360_14",
+          "distance_m": 5.794
+        },
+        {
+          "target": "image_360_15",
+          "distance_m": 4.973
+        },
+        {
+          "target": "image_360_16",
+          "distance_m": 3.942
+        },
+        {
+          "target": "image_360_17",
+          "distance_m": 2.868
+        }
+      ]
+    },
+    {
+      "id": "image_360_4",
+      "image": "../images/image_360_4.jpg",
+      "position": [
+        -7.922029972076416,
+        0.007910382002592087,
+        1.74973464012146
+      ],
+      "rotation_matrix": [
+        [
+          0.11732655018568039,
+          -0.001486320747062564,
+          -0.9930922985076904
+        ],
+        [
+          -0.0031497632153332233,
+          -0.9999943971633911,
+          0.0011245295172557235
+        ],
+        [
+          -0.99308842420578,
+          0.002996068447828293,
+          -0.11733057349920273
+        ]
+      ],
+      "hotspots": [
+        {
+          "target": "image_360_0",
+          "distance_m": 10.416
+        },
+        {
+          "target": "image_360_1",
+          "distance_m": 7.982
+        },
+        {
+          "target": "image_360_2",
+          "distance_m": 2.773
+        },
+        {
+          "target": "image_360_3",
+          "distance_m": 1.271
+        },
+        {
+          "target": "image_360_5",
+          "distance_m": 1.38
+        },
+        {
+          "target": "image_360_6",
+          "distance_m": 2.724
+        },
+        {
+          "target": "image_360_7",
+          "distance_m": 4.054
+        },
+        {
+          "target": "image_360_9",
+          "distance_m": 6.067
+        },
+        {
+          "target": "image_360_10",
+          "distance_m": 9.341
+        },
+        {
+          "target": "image_360_12",
+          "distance_m": 8.285
+        },
+        {
+          "target": "image_360_13",
+          "distance_m": 8.185
+        },
+        {
+          "target": "image_360_14",
+          "distance_m": 6.989
+        },
+        {
+          "target": "image_360_15",
+          "distance_m": 6.223
+        },
+        {
+          "target": "image_360_16",
+          "distance_m": 5.183
+        },
+        {
+          "target": "image_360_17",
+          "distance_m": 4.088
+        }
+      ]
+    },
+    {
+      "id": "image_360_5",
+      "image": "../images/image_360_5.jpg",
+      "position": [
+        -8.282044410705566,
+        0.00977313332259655,
+        0.4170092046260834
+      ],
+      "rotation_matrix": [
+        [
+          0.5399631857872009,
+          -0.001727253315038979,
+          -0.8416868448257446
+        ],
+        [
+          0.0007717476692050695,
+          -0.9999964833259583,
+          0.002547221025452018
+        ],
+        [
+          -0.8416882753372192,
+          -0.002024975372478366,
+          -0.5399599671363831
+        ]
+      ],
+      "hotspots": [
+        {
+          "target": "image_360_0",
+          "distance_m": 10.77
+        },
+        {
+          "target": "image_360_1",
+          "distance_m": 8.349
+        },
+        {
+          "target": "image_360_2",
+          "distance_m": 3.296
+        },
+        {
+          "target": "image_360_3",
+          "distance_m": 2.074
+        },
+        {
+          "target": "image_360_4",
+          "distance_m": 1.38
+        },
+        {
+          "target": "image_360_6",
+          "distance_m": 1.36
+        },
+        {
+          "target": "image_360_10",
+          "distance_m": 9.539
+        },
+        {
+          "target": "image_360_11",
+          "distance_m": 8.295
+        },
+        {
+          "target": "image_360_12",
+          "distance_m": 8.297
+        },
+        {
+          "target": "image_360_14",
+          "distance_m": 7.002
+        },
+        {
+          "target": "image_360_15",
+          "distance_m": 6.457
+        },
+        {
+          "target": "image_360_16",
+          "distance_m": 5.413
+        },
+        {
+          "target": "image_360_17",
+          "distance_m": 4.298
+        }
+      ]
+    },
+    {
+      "id": "image_360_6",
+      "image": "../images/image_360_6.jpg",
+      "position": [
+        -8.34461784362793,
+        -0.005726663861423731,
+        -0.9414467215538025
+      ],
+      "rotation_matrix": [
+        [
+          -0.22034233808517456,
+          0.0007435388979502022,
+          -0.9754223227500916
+        ],
+        [
+          0.002082857768982649,
+          -0.999997079372406,
+          -0.0012327772565186024
+        ],
+        [
+          -0.975420355796814,
+          -0.0023032990284264088,
+          0.22034014761447906
+        ]
+      ],
+      "hotspots": [
+        {
+          "target": "image_360_2",
+          "distance_m": 3.999
+        },
+        {
+          "target": "image_360_3",
+          "distance_m": 3.137
+        },
+        {
+          "target": "image_360_4",
+          "distance_m": 2.724
+        },
+        {
+          "target": "image_360_5",
+          "distance_m": 1.36
+        },
+        {
+          "target": "image_360_7",
+          "distance_m": 4.117
+        },
+        {
+          "target": "image_360_9",
+          "distance_m": 5.437
+        },
+        {
+          "target": "image_360_13",
+          "distance_m": 7.745
+        },
+        {
+          "target": "image_360_15",
+          "distance_m": 6.677
+        }
+      ]
+    },
+    {
+      "id": "image_360_7",
+      "image": "../images/image_360_7.jpg",
+      "position": [
+        -4.314831256866455,
+        -0.003025508252903819,
+        -0.10046479851007462
+      ],
+      "rotation_matrix": [
+        [
+          -0.42136532068252563,
+          0.001359622459858656,
+          -0.9068899750709534
+        ],
+        [
+          0.00012908747885376215,
+          -0.9999987483024597,
+          -0.0015591899864375591
+        ],
+        [
+          -0.9068909883499146,
+          -0.0007740567089058459,
+          0.42136460542678833
+        ]
+      ],
+      "hotspots": [
+        {
+          "target": "image_360_1",
+          "distance_m": 4.522
+        },
+        {
+          "target": "image_360_2",
+          "distance_m": 1.794
+        },
+        {
+          "target": "image_360_3",
+          "distance_m": 2.95
+        },
+        {
+          "target": "image_360_4",
+          "distance_m": 4.054
+        },
+        {
+          "target": "image_360_6",
+          "distance_m": 4.117
+        },
+        {
+          "target": "image_360_8",
+          "distance_m": 1.25
+        },
+        {
+          "target": "image_360_9",
+          "distance_m": 2.132
+        },
+        {
+          "target": "image_360_10",
+          "distance_m": 5.562
+        },
+        {
+          "target": "image_360_11",
+          "distance_m": 4.318
+        },
+        {
+          "target": "image_360_12",
+          "distance_m": 4.303
+        },
+        {
+          "target": "image_360_13",
+          "distance_m": 4.131
+        },
+        {
+          "target": "image_360_14",
+          "distance_m": 3.005
+        },
+        {
+          "target": "image_360_15",
+          "distance_m": 2.561
+        },
+        {
+          "target": "image_360_16",
+          "distance_m": 1.598
+        },
+        {
+          "target": "image_360_17",
+          "distance_m": 0.804
+        }
+      ]
+    },
+    {
+      "id": "image_360_8",
+      "image": "../images/image_360_8.jpg",
+      "position": [
+        -4.2810282707214355,
+        -0.016402611508965492,
+        -1.3496259450912476
+      ],
+      "rotation_matrix": [
+        [
+          -0.37727102637290955,
+          0.001905058859847486,
+          -0.9261009097099304
+        ],
+        [
+          0.003111626021564007,
+          -0.9999896287918091,
+          -0.003324654418975115
+        ],
+        [
+          -0.9260976910591125,
+          -0.004135975614190102,
+          0.3772611916065216
+        ]
+      ],
+      "hotspots": [
+        {
+          "target": "image_360_0",
+          "distance_m": 7.162
+        },
+        {
+          "target": "image_360_2",
+          "distance_m": 2.964
+        },
+        {
+          "target": "image_360_3",
+          "distance_m": 3.863
+        },
+        {
+          "target": "image_360_7",
+          "distance_m": 1.25
+        },
+        {
+          "target": "image_360_9",
+          "distance_m": 1.373
+        },
+        {
+          "target": "image_360_10",
+          "distance_m": 5.681
+        },
+        {
+          "target": "image_360_11",
+          "distance_m": 4.49
+        },
+        {
+          "target": "image_360_12",
+          "distance_m": 4.19
+        },
+        {
+          "target": "image_360_13",
+          "distance_m": 3.67
+        },
+        {
+          "target": "image_360_14",
+          "distance_m": 2.996
+        },
+        {
+          "target": "image_360_15",
+          "distance_m": 3.075
+        },
+        {
+          "target": "image_360_16",
+          "distance_m": 2.394
+        },
+        {
+          "target": "image_360_17",
+          "distance_m": 2.006
+        }
+      ]
+    },
+    {
+      "id": "image_360_9",
+      "image": "../images/image_360_9.jpg",
+      "position": [
+        -2.969165325164795,
+        -0.017388872802257538,
+        -1.754489779472351
+      ],
+      "rotation_matrix": [
+        [
+          0.18182030320167542,
+          0.0013344548642635345,
+          -0.9833308458328247
+        ],
+        [
+          0.004460305441170931,
+          -0.999989926815033,
+          -0.0005323410150595009
+        ],
+        [
+          -0.9833216667175293,
+          -0.0042891656048595905,
+          -0.18182441592216492
+        ]
+      ],
+      "hotspots": [
+        {
+          "target": "image_360_0",
+          "distance_m": 6.115
+        },
+        {
+          "target": "image_360_1",
+          "distance_m": 4.168
+        },
+        {
+          "target": "image_360_2",
+          "distance_m": 3.908
+        },
+        {
+          "target": "image_360_3",
+          "distance_m": 5.05
+        },
+        {
+          "target": "image_360_4",
+          "distance_m": 6.067
+        },
+        {
+          "target": "image_360_6",
+          "distance_m": 5.437
+        },
+        {
+          "target": "image_360_7",
+          "distance_m": 2.132
+        },
+        {
+          "target": "image_360_8",
+          "distance_m": 1.373
+        },
+        {
+          "target": "image_360_10",
+          "distance_m": 4.552
+        },
+        {
+          "target": "image_360_11",
+          "distance_m": 3.449
+        },
+        {
+          "target": "image_360_12",
+          "distance_m": 2.962
+        },
+        {
+          "target": "image_360_13",
+          "distance_m": 2.309
+        },
+        {
+          "target": "image_360_14",
+          "distance_m": 1.939
+        },
+        {
+          "target": "image_360_15",
+          "distance_m": 2.53
+        },
+        {
+          "target": "image_360_16",
+          "distance_m": 2.342
+        },
+        {
+          "target": "image_360_17",
+          "distance_m": 2.598
+        }
+      ]
+    },
+    {
+      "id": "image_360_10",
+      "image": "../images/image_360_10.jpg",
+      "position": [
+        1.2463971376419067,
+        -0.007073857821524143,
+        -0.0362703762948513
+      ],
+      "rotation_matrix": [
+        [
+          -0.2111755907535553,
+          0.000309908005874604,
+          -0.9774481058120728
+        ],
+        [
+          0.0019114300375804305,
+          -0.9999979138374329,
+          -0.0007300180150195956
+        ],
+        [
+          -0.9774462580680847,
+          -0.002022485714405775,
+          0.21117456257343292
+        ]
+      ],
+      "hotspots": [
+        {
+          "target": "image_360_0",
+          "distance_m": 1.63
+        },
+        {
+          "target": "image_360_1",
+          "distance_m": 1.683
+        },
+        {
+          "target": "image_360_2",
+          "distance_m": 6.586
+        },
+        {
+          "target": "image_360_3",
+          "distance_m": 8.087
+        },
+        {
+          "target": "image_360_4",
+          "distance_m": 9.341
+        },
+        {
+          "target": "image_360_5",
+          "distance_m": 9.539
+        },
+        {
+          "target": "image_360_7",
+          "distance_m": 5.562
+        },
+        {
+          "target": "image_360_8",
+          "distance_m": 5.681
+        },
+        {
+          "target": "image_360_9",
+          "distance_m": 4.552
+        },
+        {
+          "target": "image_360_11",
+          "distance_m": 1.245
+        },
+        {
+          "target": "image_360_12",
+          "distance_m": 1.659
+        },
+        {
+          "target": "image_360_14",
+          "distance_m": 2.686
+        }
+      ]
+    },
+    {
+      "id": "image_360_11",
+      "image": "../images/image_360_11.jpg",
+      "position": [
+        0.001966012641787529,
+        -0.00318287150003016,
+        -0.0022325688041746616
+      ],
+      "rotation_matrix": [
+        [
+          -0.0009818392572924495,
+          -0.0017534025246277452,
+          -0.9999979734420776
+        ],
+        [
+          0.0014784194063395262,
+          -0.9999973773956299,
+          0.0017519498942419887
+        ],
+        [
+          -0.9999984502792358,
+          -0.0014766963431611657,
+          0.0009844289161264896
+        ]
+      ],
+      "hotspots": [
+        {
+          "target": "image_360_0",
+          "distance_m": 2.679
+        },
+        {
+          "target": "image_360_1",
+          "distance_m": 1.136
+        },
+        {
+          "target": "image_360_5",
+          "distance_m": 8.295
+        },
+        {
+          "target": "image_360_7",
+          "distance_m": 4.318
+        },
+        {
+          "target": "image_360_8",
+          "distance_m": 4.49
+        },
+        {
+          "target": "image_360_9",
+          "distance_m": 3.449
+        },
+        {
+          "target": "image_360_10",
+          "distance_m": 1.245
+        },
+        {
+          "target": "image_360_12",
+          "distance_m": 1.001
+        },
+        {
+          "target": "image_360_13",
+          "distance_m": 2.175
+        },
+        {
+          "target": "image_360_14",
+          "distance_m": 1.519
+        },
+        {
+          "target": "image_360_16",
+          "distance_m": 2.933
+        },
+        {
+          "target": "image_360_17",
+          "distance_m": 4.042
+        }
+      ]
+    },
+    {
+      "id": "image_360_12",
+      "image": "../images/image_360_12.jpg",
+      "position": [
+        -0.10608907043933868,
+        -0.008534619584679604,
+        -0.9971669316291809
+      ],
+      "rotation_matrix": [
+        [
+          0.019271692261099815,
+          -0.0033295312896370888,
+          -0.9998087286949158
+        ],
+        [
+          0.0035153059288859367,
+          -0.9999880194664001,
+          0.0033978873398154974
+        ],
+        [
+          -0.999808132648468,
+          -0.003580116666853428,
+          -0.019259758293628693
+        ]
+      ],
+      "hotspots": [
+        {
+          "target": "image_360_0",
+          "distance_m": 3.285
+        },
+        {
+          "target": "image_360_1",
+          "distance_m": 2.135
+        },
+        {
+          "target": "image_360_2",
+          "distance_m": 5.631
+        },
+        {
+          "target": "image_360_3",
+          "distance_m": 7.08
+        },
+        {
+          "target": "image_360_4",
+          "distance_m": 8.285
+        },
+        {
+          "target": "image_360_5",
+          "distance_m": 8.297
+        },
+        {
+          "target": "image_360_7",
+          "distance_m": 4.303
+        },
+        {
+          "target": "image_360_8",
+          "distance_m": 4.19
+        },
+        {
+          "target": "image_360_9",
+          "distance_m": 2.962
+        },
+        {
+          "target": "image_360_10",
+          "distance_m": 1.659
+        },
+        {
+          "target": "image_360_11",
+          "distance_m": 1.001
+        },
+        {
+          "target": "image_360_13",
+          "distance_m": 1.215
+        },
+        {
+          "target": "image_360_14",
+          "distance_m": 1.301
+        },
+        {
+          "target": "image_360_15",
+          "distance_m": 2.282
+        },
+        {
+          "target": "image_360_16",
+          "distance_m": 3.186
+        },
+        {
+          "target": "image_360_17",
+          "distance_m": 4.212
+        }
+      ]
+    },
+    {
+      "id": "image_360_13",
+      "image": "../images/image_360_13.jpg",
+      "position": [
+        -0.6815205812454224,
+        -0.021086785942316055,
+        -2.0670993328094482
+      ],
+      "rotation_matrix": [
+        [
+          -0.24718841910362244,
+          -0.0006768772727809846,
+          -0.9689671993255615
+        ],
+        [
+          0.006099929567426443,
+          -0.9999810457229614,
+          -0.0008575806277804077
+        ],
+        [
+          -0.968948245048523,
+          -0.0061226156540215015,
+          0.24718785285949707
+        ]
+      ],
+      "hotspots": [
+        {
+          "target": "image_360_0",
+          "distance_m": 4.426
+        },
+        {
+          "target": "image_360_1",
+          "distance_m": 3.28
+        },
+        {
+          "target": "image_360_2",
+          "distance_m": 5.715
+        },
+        {
+          "target": "image_360_3",
+          "distance_m": 7.06
+        },
+        {
+          "target": "image_360_4",
+          "distance_m": 8.185
+        },
+        {
+          "target": "image_360_6",
+          "distance_m": 7.745
+        },
+        {
+          "target": "image_360_7",
+          "distance_m": 4.131
+        },
+        {
+          "target": "image_360_8",
+          "distance_m": 3.67
+        },
+        {
+          "target": "image_360_9",
+          "distance_m": 2.309
+        },
+        {
+          "target": "image_360_11",
+          "distance_m": 2.175
+        },
+        {
+          "target": "image_360_12",
+          "distance_m": 1.215
+        },
+        {
+          "target": "image_360_14",
+          "distance_m": 1.558
+        },
+        {
+          "target": "image_360_15",
+          "distance_m": 2.813
+        },
+        {
+          "target": "image_360_16",
+          "distance_m": 3.44
+        },
+        {
+          "target": "image_360_17",
+          "distance_m": 4.271
+        }
+      ]
+    },
+    {
+      "id": "image_360_14",
+      "image": "../images/image_360_14.jpg",
+      "position": [
+        -1.3641492128372192,
+        -0.01199694350361824,
+        -0.6668313145637512
+      ],
+      "rotation_matrix": [
+        [
+          -0.18731507658958435,
+          -0.0007528302958235145,
+          -0.9822995662689209
+        ],
+        [
+          0.0036486315075308084,
+          -0.9999933242797852,
+          7.063180237310007e-05
+        ],
+        [
+          -0.9822931289672852,
+          -0.0035708188079297543,
+          0.18731656670570374
+        ]
+      ],
+      "hotspots": [
+        {
+          "target": "image_360_0",
+          "distance_m": 4.197
+        },
+        {
+          "target": "image_360_1",
+          "distance_m": 2.28
+        },
+        {
+          "target": "image_360_2",
+          "distance_m": 4.363
+        },
+        {
+          "target": "image_360_3",
+          "distance_m": 5.794
+        },
+        {
+          "target": "image_360_4",
+          "distance_m": 6.989
+        },
+        {
+          "target": "image_360_5",
+          "distance_m": 7.002
+        },
+        {
+          "target": "image_360_7",
+          "distance_m": 3.005
+        },
+        {
+          "target": "image_360_8",
+          "distance_m": 2.996
+        },
+        {
+          "target": "image_360_9",
+          "distance_m": 1.939
+        },
+        {
+          "target": "image_360_10",
+          "distance_m": 2.686
+        },
+        {
+          "target": "image_360_11",
+          "distance_m": 1.519
+        },
+        {
+          "target": "image_360_12",
+          "distance_m": 1.301
+        },
+        {
+          "target": "image_360_13",
+          "distance_m": 1.558
+        },
+        {
+          "target": "image_360_15",
+          "distance_m": 1.257
+        },
+        {
+          "target": "image_360_16",
+          "distance_m": 1.96
+        },
+        {
+          "target": "image_360_17",
+          "distance_m": 2.93
+        }
+      ]
+    },
+    {
+      "id": "image_360_15",
+      "image": "../images/image_360_15.jpg",
+      "position": [
+        -1.8259040117263794,
+        -0.009393340907990932,
+        0.5021398663520813
+      ],
+      "rotation_matrix": [
+        [
+          0.12471220642328262,
+          -0.001517313765361905,
+          -0.9921917915344238
+        ],
+        [
+          0.0007010369445197284,
+          -0.9999984502792358,
+          0.0016173679614439607
+        ],
+        [
+          -0.9921926856040955,
+          -0.0008972686482593417,
+          -0.12471095472574234
+        ]
+      ],
+      "hotspots": [
+        {
+          "target": "image_360_1",
+          "distance_m": 1.966
+        },
+        {
+          "target": "image_360_2",
+          "distance_m": 3.477
+        },
+        {
+          "target": "image_360_3",
+          "distance_m": 4.973
+        },
+        {
+          "target": "image_360_4",
+          "distance_m": 6.223
+        },
+        {
+          "target": "image_360_5",
+          "distance_m": 6.457
+        },
+        {
+          "target": "image_360_6",
+          "distance_m": 6.677
+        },
+        {
+          "target": "image_360_7",
+          "distance_m": 2.561
+        },
+        {
+          "target": "image_360_8",
+          "distance_m": 3.075
+        },
+        {
+          "target": "image_360_9",
+          "distance_m": 2.53
+        },
+        {
+          "target": "image_360_12",
+          "distance_m": 2.282
+        },
+        {
+          "target": "image_360_13",
+          "distance_m": 2.813
+        },
+        {
+          "target": "image_360_14",
+          "distance_m": 1.257
+        },
+        {
+          "target": "image_360_16",
+          "distance_m": 1.049
+        },
+        {
+          "target": "image_360_17",
+          "distance_m": 2.168
+        }
+      ]
+    },
+    {
+      "id": "image_360_16",
+      "image": "../images/image_360_16.jpg",
+      "position": [
+        -2.8712687492370605,
+        -0.005590247921645641,
+        0.585594117641449
+      ],
+      "rotation_matrix": [
+        [
+          0.28463831543922424,
+          -0.001693201600573957,
+          -0.9586334824562073
+        ],
+        [
+          -0.001055748900398612,
+          -0.9999983906745911,
+          0.0014527890598401427
+        ],
+        [
+          -0.9586343765258789,
+          0.0005985568277537823,
+          -0.2846396565437317
+        ]
+      ],
+      "hotspots": [
+        {
+          "target": "image_360_0",
+          "distance_m": 5.361
+        },
+        {
+          "target": "image_360_1",
+          "distance_m": 2.958
+        },
+        {
+          "target": "image_360_2",
+          "distance_m": 2.46
+        },
+        {
+          "target": "image_360_3",
+          "distance_m": 3.942
+        },
+        {
+          "target": "image_360_4",
+          "distance_m": 5.183
+        },
+        {
+          "target": "image_360_5",
+          "distance_m": 5.413
+        },
+        {
+          "target": "image_360_7",
+          "distance_m": 1.598
+        },
+        {
+          "target": "image_360_8",
+          "distance_m": 2.394
+        },
+        {
+          "target": "image_360_9",
+          "distance_m": 2.342
+        },
+        {
+          "target": "image_360_11",
+          "distance_m": 2.933
+        },
+        {
+          "target": "image_360_12",
+          "distance_m": 3.186
+        },
+        {
+          "target": "image_360_13",
+          "distance_m": 3.44
+        },
+        {
+          "target": "image_360_14",
+          "distance_m": 1.96
+        },
+        {
+          "target": "image_360_15",
+          "distance_m": 1.049
+        },
+        {
+          "target": "image_360_17",
+          "distance_m": 1.119
+        }
+      ]
+    },
+    {
+      "id": "image_360_17",
+      "image": "../images/image_360_17.jpg",
+      "position": [
+        -3.9895241260528564,
+        0.006627629976719618,
+        0.6346732378005981
+      ],
+      "rotation_matrix": [
+        [
+          0.22679100930690765,
+          0.001406664727255702,
+          -0.9739424586296082
+        ],
+        [
+          0.0007561983074992895,
+          -0.999998927116394,
+          -0.0012682107044383883
+        ],
+        [
+          -0.9739431738853455,
+          -0.00044887486728839576,
+          -0.22679182887077332
+        ]
+      ],
+      "hotspots": [
+        {
+          "target": "image_360_0",
+          "distance_m": 6.472
+        },
+        {
+          "target": "image_360_1",
+          "distance_m": 4.056
+        },
+        {
+          "target": "image_360_2",
+          "distance_m": 1.446
+        },
+        {
+          "target": "image_360_3",
+          "distance_m": 2.868
+        },
+        {
+          "target": "image_360_4",
+          "distance_m": 4.088
+        },
+        {
+          "target": "image_360_5",
+          "distance_m": 4.298
+        },
+        {
+          "target": "image_360_7",
+          "distance_m": 0.804
+        },
+        {
+          "target": "image_360_8",
+          "distance_m": 2.006
+        },
+        {
+          "target": "image_360_9",
+          "distance_m": 2.598
+        },
+        {
+          "target": "image_360_11",
+          "distance_m": 4.042
+        },
+        {
+          "target": "image_360_12",
+          "distance_m": 4.212
+        },
+        {
+          "target": "image_360_13",
+          "distance_m": 4.271
+        },
+        {
+          "target": "image_360_14",
+          "distance_m": 2.93
+        },
+        {
+          "target": "image_360_15",
+          "distance_m": 2.168
+        },
+        {
+          "target": "image_360_16",
+          "distance_m": 1.119
+        }
+      ]
+    }
+  ]
+}
